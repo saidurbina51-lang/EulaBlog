@@ -1,0 +1,82 @@
+.titulo {
+    text-align: center ;
+    color: dodgerblue;
+    background-color: aliceblue;
+}
+#Nombre{
+    text-align: center;
+    text-decoration:overline;
+}
+.imagen{
+    flex: auto;
+    text-align: center;
+}
+p.texto {
+    text-align: center;
+    color: black;
+    background-color: aliceblue;
+}
+#descripcion{
+    text-align: center;
+}
+body {
+background-color: rgba(21, 69, 124, 0.274) ;
+background-image:url("img/Eulafondo.jpg") ;
+background-size: 800px 1000px;
+background-repeat: repeat;
+background-position: center;
+
+}
+#margen{
+    max-width: 50% ;
+    margin: 0 auto;
+    background-color: aliceblue;
+    flex-basis: auto ;
+    border: 2px black;
+    outline: 3px solid black;
+    flex: auto;
+    overflow:scroll;
+}
+/*nos quedamos en text*/
+div .texto{
+    max-width: 60% ;
+    max-height: 50%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-style:solid ;
+    border-color: darkblue;
+    border-radius: 5px; 
+    border-width: 2px;
+}
+#borde{
+    display: flex;
+    justify-content: center;       
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color:blueviolet;
+}
+a:hover {
+    color:green;
+}
+a:active{
+    color: red;
+}
+.subtitulo{
+    text-align: center;
+}
+ol {
+  list-style-position: inside; 
+  padding:0;
+}
+#cuestionario {
+  background-color: aliceblue;
+  width: 90%;
+  margin: 0 auto; 
+  text-align: center; 
+}
+.preguntas{
+    font-size: 20px;
+}
